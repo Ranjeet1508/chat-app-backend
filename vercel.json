@@ -1,0 +1,6 @@
+{
+    "version": 2,
+    "name": "chat-backend",
+    "builds": [{"src": "index.js", "use": "@vercel_node"}],
+    "routes": [{"src": "/(.*)", "dest": "/index.js"}]
+}
